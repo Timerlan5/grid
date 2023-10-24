@@ -1,0 +1,39 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 60px;
+  align-items: center;
+  padding: 40px 0;
+
+
+}
+header nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+
+    
+  
+}
+.locatoin{
+    display: grid;
+    grid-template-columns: 40px 2fr;
+    justify-self: end;
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style-type: none;
+    width: 30%;
+}
+
